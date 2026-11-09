@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🌤️ Weather App</h1>
+            <p>Check the weather of any city</p>
+        </header>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name..."
+            >
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <p id="message"></p>
+
+        <div class="weather-card">
+
+            <h2 id="cityName">Hyderabad</h2>
+            <p id="date">Loading date...</p>
+
+            <div class="weather-icon" id="weatherIcon">🌤️</div>
+
+            <h1 id="temperature">--°C</h1>
+
+            <h3 id="weatherCondition">Loading...</h3>
+
+            <p id="feelsLike">Feels like: --°C</p>
+
+            <div class="weather-details">
+
+                <div class="detail">
+                    <span>💧</span>
+                    <h3 id="humidity">--%</h3>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="detail">
+                    <span>💨</span>
+                    <h3 id="windSpeed">-- km/h</h3>
+                    <p>Wind Speed</p>
+                </div>
+
+                <div class="detail">
+                    <span>🌧️</span>
+                    <h3 id="rain">-- mm</h3>
+                    <p>Precipitation</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Weather App Project | Created using HTML, CSS & JavaScript</p>
+            <p>Weather data by Open-Meteo</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
